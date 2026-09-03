@@ -1,0 +1,382 @@
+I want you to upgrade this EXISTING website into a highly competitive, SEO-first Landed Cost Calculator website.
+
+IMPORTANT:
+- Do NOT rebuild the project from scratch.
+- Do NOT replace working components unnecessarily.
+- Do NOT install unnecessary packages.
+- Do NOT create a backend if the current calculator can work client-side.
+- Do NOT add fake testimonials, fake statistics, fake reviews, fake author information, or fake business claims.
+- Do NOT create hundreds of low-quality SEO pages.
+- Minimize changes and conserve Replit Agent credits.
+- First inspect the existing project and understand its current structure.
+- Preserve the current calculator's working functionality.
+- Only modify files that genuinely need modification.
+- Before making changes, identify the current framework, entry point, routes, components, styling system, and build configuration.
+
+GOAL:
+Turn this existing site into a professional, fast, search-engine-friendly authority website focused on "Landed Cost Calculator" and closely related import-cost searches.
+
+PRIMARY SEO TARGET:
+"Landed Cost Calculator"
+
+SECONDARY SEARCH INTENTS:
+- import cost calculator
+- total landed cost calculator
+- import duty calculator
+- customs duty calculator
+- import tax calculator
+- tariff calculator
+- landed cost per unit
+- landed cost formula
+- how to calculate landed cost
+- FOB vs CIF
+- shipping and import cost calculator
+
+Do NOT keyword-stuff. Every page must provide genuine value.
+
+==================================================
+1. CORE CALCULATOR
+==================================================
+
+Keep the existing calculator functionality if it works.
+
+Improve it only where useful.
+
+The calculator should clearly support the major components of landed cost:
+
+- Product/purchase cost
+- Quantity
+- Freight/shipping
+- Insurance
+- Customs duty
+- Import tax/VAT
+- Brokerage/customs fees
+- Port/handling fees
+- Other costs
+
+Results should clearly show:
+
+- Total landed cost
+- Landed cost per unit
+- Total additional import costs
+- Customs duty
+- Taxes
+- Shipping
+- Other fees
+- Percentage increase over original product cost
+
+Show a transparent calculation breakdown.
+
+Use sensible defaults so the calculator produces a useful result immediately.
+
+Make sure calculations are mathematically correct.
+
+Do NOT invent country-specific tax rates or customs rates.
+
+If country-specific rates are not available from reliable data, allow the user to enter their own rate.
+
+==================================================
+2. SEO-FIRST PAGE STRUCTURE
+==================================================
+
+Make the main page target:
+
+Title:
+Landed Cost Calculator - Calculate Your Total Import Cost
+
+H1:
+Landed Cost Calculator
+
+Suggested meta description:
+Calculate the true landed cost of imported goods including product price, shipping, insurance, customs duty, taxes, and other import fees.
+
+Create clean semantic HTML.
+
+Important SEO content must exist in the initial HTML/rendered page and must not depend unnecessarily on client-side JavaScript.
+
+Keep the page extremely fast.
+
+==================================================
+3. CONTENT AROUND THE CALCULATOR
+==================================================
+
+Add useful, original content below the calculator.
+
+Sections:
+
+H2: What Is Landed Cost?
+
+Explain landed cost clearly and accurately.
+
+H2: How to Calculate Landed Cost
+
+Explain the formula step by step.
+
+Use a formula such as:
+
+Landed Cost =
+Product Cost
++ Freight
++ Insurance
++ Customs Duty
++ Import Taxes
++ Brokerage
++ Port/Handling Fees
++ Other Import Costs
+
+Explain that the exact components can vary depending on the shipment and country.
+
+H2: What Does Landed Cost Include?
+
+Explain each cost separately.
+
+H2: Landed Cost Per Unit
+
+Explain how total landed cost can be divided by quantity.
+
+H2: Example Landed Cost Calculation
+
+Provide a clearly labeled illustrative example.
+
+Make it obvious that the numbers are an example and not an official government tariff.
+
+H2: FOB vs CIF
+
+Explain the difference accurately.
+
+H2: Landed Cost vs Product Cost
+
+Explain why the purchase price alone does not represent the final import cost.
+
+H2: Frequently Asked Questions
+
+Include useful questions such as:
+
+- What is landed cost?
+- How is landed cost calculated?
+- Does landed cost include customs duty?
+- Does landed cost include shipping?
+- Does landed cost include VAT?
+- What is landed cost per unit?
+- What is the difference between FOB and CIF?
+- Can I calculate landed cost without an HS code?
+
+Answers must be genuinely useful and concise.
+
+==================================================
+4. SUPPORTING SEO PAGES
+==================================================
+
+If the current project architecture supports routes/pages easily, create a SMALL number of high-quality supporting pages.
+
+Do NOT create a huge number of pages.
+
+Create:
+
+/landed-cost-calculator/
+/import-duty-calculator/
+/customs-duty-calculator/
+/import-tax-calculator/
+/landed-cost-formula/
+/how-to-calculate-landed-cost/
+/fob-vs-cif/
+
+Each page must have:
+
+- Unique title
+- Unique meta description
+- One clear H1
+- Useful original content
+- Relevant calculator/tool where appropriate
+- Internal links to related pages
+- Proper canonical URL
+- No duplicated paragraphs copied between pages
+
+If the existing application is a single-page application and creating these routes would require a major architectural rewrite, DO NOT perform a large rewrite. Instead, implement the best SEO-friendly solution possible with the existing architecture.
+
+==================================================
+5. INTERNAL LINKING
+==================================================
+
+Create logical internal links between related pages.
+
+Examples:
+
+Landed Cost Calculator
+→ Import Duty Calculator
+→ Customs Duty Calculator
+→ Import Tax Calculator
+→ Landed Cost Formula
+→ FOB vs CIF
+
+Use descriptive anchor text naturally.
+
+Do NOT create an excessive navigation menu.
+
+==================================================
+6. TECHNICAL SEO
+==================================================
+
+Implement or fix:
+
+- robots.txt
+- sitemap.xml
+- canonical URLs
+- proper title tags
+- meta descriptions
+- viewport
+- Open Graph metadata
+- Twitter/X metadata
+- semantic HTML
+- proper heading hierarchy
+- descriptive link text
+- accessible form labels
+- alt text for meaningful images
+- clean URLs
+- 404 handling
+- mobile responsiveness
+
+Make sure robots.txt does not accidentally block important pages.
+
+Make sure sitemap.xml contains only canonical indexable URLs.
+
+==================================================
+7. STRUCTURED DATA
+==================================================
+
+Add appropriate JSON-LD structured data only where it genuinely describes the page.
+
+Consider:
+
+- WebSite
+- Organization, only if legitimate information exists
+- BreadcrumbList on supporting pages
+- WebApplication/SoftwareApplication only if the implementation and properties are accurate
+
+Do NOT add fake ratings, fake reviews, fake prices, fake awards, or unsupported claims.
+
+Validate that JSON-LD is valid JSON and does not break the page.
+
+==================================================
+8. PERFORMANCE
+==================================================
+
+This is extremely important.
+
+Optimize for:
+
+- fast initial load
+- low JavaScript
+- minimal dependencies
+- minimal bundle size
+- mobile performance
+- Core Web Vitals
+- no unnecessary animations
+- no giant libraries for simple functionality
+- lazy-load non-critical assets
+- optimized fonts/assets
+
+Do NOT add a heavy UI framework or package merely for appearance.
+
+==================================================
+9. USER EXPERIENCE
+==================================================
+
+The calculator should be extremely easy to use on mobile.
+
+Use:
+
+- clear labels
+- sensible defaults
+- obvious Calculate/Reset controls
+- readable results
+- clear currency formatting
+- responsive layout
+- accessible inputs
+- helpful explanations
+
+The calculator should work without login.
+
+Do not add unnecessary popups.
+
+Do not force users to register.
+
+==================================================
+10. TRUST AND CONTENT QUALITY
+==================================================
+
+Do not pretend to be a government customs authority.
+
+Clearly explain that actual duties, taxes, fees and regulations depend on the destination country, product classification, shipment terms and applicable authorities.
+
+Where external official rates are required, instruct users to verify current rates with the relevant customs/tax authority.
+
+Do not fabricate data.
+
+==================================================
+11. CODE QUALITY
+==================================================
+
+Before finishing:
+
+- remove obvious unused code introduced by the upgrade
+- avoid duplicate components
+- avoid duplicate CSS
+- keep existing working code where possible
+- make sure all routes build
+- make sure calculator calculations still work
+- make sure there are no console errors
+- make sure there are no broken internal links
+- make sure sitemap and robots files work
+- make sure production build succeeds
+
+==================================================
+12. VERY IMPORTANT CREDIT-SAVING RULE
+==================================================
+
+Do this in the smallest practical number of edits.
+
+Do NOT repeatedly redesign the same thing.
+
+Do NOT spend credits explaining every change.
+
+Do not ask me to approve every small decision.
+
+Inspect → plan internally → implement the necessary changes → test → fix only actual errors.
+
+Do not rebuild working functionality.
+
+==================================================
+13. FINAL SEO CHECK
+==================================================
+
+Before finishing, verify:
+
+1. Main page has exactly one primary H1.
+2. Main title targets "Landed Cost Calculator".
+3. Meta description is compelling and relevant.
+4. Important content is crawlable.
+5. Calculator works.
+6. Mobile layout works.
+7. Sitemap exists.
+8. Robots.txt exists.
+9. Canonicals are correct.
+10. Internal links work.
+11. Structured data is valid.
+12. No fake claims/data.
+13. No keyword stuffing.
+14. No duplicate/thin SEO pages.
+15. Production build succeeds.
+16. No obvious console errors.
+17. No unnecessary dependencies were added.
+
+IMPORTANT:
+The objective is NOT to guarantee a #1 Google ranking, because nobody can guarantee that.
+
+The objective is to make this website technically excellent, highly useful, fast, crawlable, trustworthy, and strongly optimized for the entire "landed cost calculator" search topic while preserving the existing project and minimizing Replit credit usage.
+
+After implementation, give me ONLY a concise summary of:
+- files changed
+- major improvements
+- build/test result
+- any remaining issues
