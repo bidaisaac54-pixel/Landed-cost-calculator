@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Landed Cost Calculator"
+description = "A fast, mobile-first landed cost calculator for importers, ecommerce sellers, resellers, and international buyers to estimate true import cost per shipment and unit."
+version = "1.0.0"
+id = "artifacts/landed-cost-calculator"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19928
+
+[services.development]
+run = "pnpm --filter @workspace/landed-cost-calculator run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/landed-cost-calculator", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/landed-cost-calculator/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19928"
+BASE_PATH = "/"
